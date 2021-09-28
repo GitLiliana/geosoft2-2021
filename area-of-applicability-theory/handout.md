@@ -17,13 +17,12 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
 ### Basic Idea
 
-As differances between areas play an important role in the applicability of a model, an index which describes the dissimilarity between data points is calculated. This is the so called 'dissimilarity index' (DI) which is based on the minimum distance to the training data within the multdimensional predictor space. Due to varying importance of the environmental variables within the model the predictors are weighed before calculating distances.
-As cross-validation is common for machine learning models, the AOA is defined as the area for which, on average, the cross-validation error applies. This area is estimated by using a threshold of the DI. This threshold is derived from comparison between the prediction error within the AOA and the cross-validation error of the model.
-Finally, the approach is illustrated in a simulated case study.
+1. **Calculate dissimilarity index (DI):** As differences between areas play an important role in the applicability of a model, an index which describes the dissimilarity between data points is calculated. This is the so called 'dissimilarity index'. It is based on the minimum distance to the training data within the multdimensional predictor space using weighed predictor variables.
+2. **Estimating the AOA by applying threshold of the DI:** The threshold of the DI is derived from comparison between the prediction error within the AOA and the cross-validation error of the model.
 
-Summarized this leads to:
-1. Calculate DI for expressing differences between data points.
-2. Define AOA by applying threshold of DI.
+### Calculating the Dissimilarity Index (DI)
+
+### Estimating the Area of Applicability
 
 ## Results from Case Study
 
