@@ -53,6 +53,12 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
 ## Results from Case Study
 
+Finally, the introduced approach for estimating the AOA is illustrated in a case study using a single simulation for the response variable as shown in figure 5. In addtion, 50 sample points were randomly selected as training data (figure 5b).
+
+Based on this, model performance estimations were done. The results are summarized in Figure 7 where the areas outside of the AOA are shown in pink in figure 7e. When comparing the true prediction error with the standard deviation of predictions and the DI, it becomes clear that the DI reflects the true error quite well whereas the standard deviation does not. This emphasises the suitability of the decribed method to estimate the AOA.
+
+*(Notice: The paper discusses a scond example.)*
+
 ## References
 
 [Meyer, H. and Pebesma, E. (2020): Predicting into unkown space? Estimating the area of applicability of spatial prediction models. Preprint](https://arxiv.org/abs/2005.07939)
