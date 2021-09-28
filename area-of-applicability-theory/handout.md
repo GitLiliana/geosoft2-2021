@@ -22,7 +22,9 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
 ### Calculating the Dissimilarity Index (DI)
 
-1. **Standardization of predictor variables:** To ensure that all variables are treated equally they are scaled by the following formula. <img src="./images/scaledVar.png" width=50%>
+1. **Standardization of predictor variables:** To ensure that all variables are treated equally they are scaled by the following formula.
+
+   <img src="./images/scaledVar.png" width=50%>
 
 2. **Weighing of variables:** To reflect the variable importance the scaled variables are multiplied with an impotance estimate w<sub>j</sub> which is provided by most machine learning models.
 
