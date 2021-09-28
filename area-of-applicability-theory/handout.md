@@ -22,12 +22,23 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
 ### Calculating the Dissimilarity Index (DI)
 
-1. **Standardization of predictor variables:** To ensure that all variables are treated equally they are scaled by the following formula.
-![scaledVar](/images/scaledVar.png)
-3. **Weighing of variables:** To reflect the variable importance the scaled variables are multiplied with an impotance estimate w<sub>j</sub> which is provided by most machine learning models.
-4. **Distance calculation:** The distance between two point a and b in the predictor variable space is calculated using the euclidean distance.
-5. **Minimum distance for a prediction point:** For a new prediction point k, the distance to the nearest training data point is determined by the following formula.
-6. **Obtain dissimilarity index:** Standardize the minimum distances by deviding d<sub>k</sub> by the average of pairwise distances in the training data.
+1. **Standardization of predictor variables:** To ensure that all variables are treated equally they are scaled by the following formula. <img src="./images/scaledVar.png" width=50%>
+
+2. **Weighing of variables:** To reflect the variable importance the scaled variables are multiplied with an impotance estimate w<sub>j</sub> which is provided by most machine learning models.
+
+   <img src="./images/weighedVar.png" width=12%>
+
+3. **Distance calculation:** The distance between two point a and b in the predictor variable space is calculated using the euclidean distance.
+
+   <img src="./images/euclideanDist.png" width=25%>
+
+4. **Minimum distance for a prediction point:** For a new prediction point k, the distance to the nearest training data point is determined by the following formula.
+
+   <img src="./images/minDist.png" width=17%>
+
+5. **Obtain dissimilarity index:** Standardize the minimum distances by deviding d<sub>k</sub> by the average of pairwise distances in the training data.
+
+   <img src="./images/DI.png" width=11%>
 
 ### Estimating the Area of Applicability
 
