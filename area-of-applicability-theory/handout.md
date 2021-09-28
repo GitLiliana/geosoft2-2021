@@ -24,7 +24,7 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
 1. **Standardization of predictor variables:** To ensure that all variables are treated equally they are scaled by the following formula.
 
-   <img src="./images/scaledVar.png" width=50%>
+   <img src="./images/scaledVar_new.png" width=50%>
 
 2. **Weighing of variables:** To reflect the variable importance the scaled variables are multiplied with an impotance estimate w<sub>j</sub> which is provided by most machine learning models.
 
@@ -43,6 +43,12 @@ Spatial mapping of environmental variables is important to reveal spatial patter
    <img src="./images/DI.png" width=11%>
 
 ### Estimating the Area of Applicability
+
+- **Taking cross validation into account:** The AOA is defined as the area where the prediction error is comparable to the model's cross-validation error. Using cross-validation means that the training data is split into folds. This has to be taken into account for calculating the DI. When calculating the distance to the nearest training data point, it is important to only use points that are not in the same fold.
+- **Simulate a response variable for testing purposes:** To choose a reasonable threshold for the DI varying thresholds were tested for nearly 1000 prediction tasks where true vaulues were known. Based on bioclimatic predictor variables a spatially continous response variable was simulated. This simulated response variable was then used for the prediction tasks mentioned before.
+- **Compare prediction error and cross-validation for varying quantiles of DI:** Based on the simulations the prediction error was computed by substracting predicted values from true values. Then the prediction error was compared to the cross-validation error for varying quantiles of the DI. This comparison showed that the difference between the errors is close to zero for the .95 quantile. Hence, the .95 quantile was selected as threshold for the DI.
+
+
 
 ## Results from Case Study
 
