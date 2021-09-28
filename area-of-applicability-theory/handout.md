@@ -21,6 +21,10 @@ As differances between areas play an important role in the applicability of a mo
 As cross-validation is common for machine learning models, the AOA is defined as the area for which, on average, the cross-validation error applies. This area is estimated by using a threshold of the DI. This threshold is derived from comparison between the prediction error within the AOA and the cross-validation error of the model.
 Finally, the approach is illustrated in a simulated case study.
 
+Summarized this leads to:
+1. Calculate DI for expressing differences between data points.
+2. Define AOA by applying threshold of DI.
+
 ## Results from Case Study
 
 ## References
