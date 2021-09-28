@@ -22,11 +22,12 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
 ### Calculating the Dissimilarity Index (DI)
 
-1. **Standardization of predictor variables:** To ensure that all vraiables are treared equally they are scaled by the following formula.
-2. **Weighing of variables:** To reflect the variable importance the scaled variables are multiplied with an impotance estimate wj which is provided by most machine learning models.
-3. **Distance calculation:** The distance between two point a and b in the predictor variable space is calculated using the euclidean distance.
-4. **Minimum distance for a prediction point:** For a new prediction point k, the distance to the nearest training data point is determined by the following formula.
-5. **Obtain dissimilarity index:** Standardize the minimum distances by deviding dk by the average of pairwise distances in the training data.
+1. **Standardization of predictor variables:** To ensure that all variables are treated equally they are scaled by the following formula.
+![scaledVar](/images/scaledVar.png)
+3. **Weighing of variables:** To reflect the variable importance the scaled variables are multiplied with an impotance estimate w<sub>j</sub> which is provided by most machine learning models.
+4. **Distance calculation:** The distance between two point a and b in the predictor variable space is calculated using the euclidean distance.
+5. **Minimum distance for a prediction point:** For a new prediction point k, the distance to the nearest training data point is determined by the following formula.
+6. **Obtain dissimilarity index:** Standardize the minimum distances by deviding d<sub>k</sub> by the average of pairwise distances in the training data.
 
 ### Estimating the Area of Applicability
 
