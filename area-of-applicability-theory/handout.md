@@ -55,9 +55,13 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
 Finally, the introduced approach for estimating the AOA is illustrated in a case study using a single simulation for the response variable as shown in figure 5. In addtion, 50 sample points were randomly selected as training data (figure 5b).
 
+   <img src="./images/Figure5.png" width=80%>
+
 Based on this, model performance estimations were done. The results are summarized in Figure 7 where the areas outside of the AOA are shown in pink in figure 7e. When comparing the true prediction error with the standard deviation of predictions and the DI, it becomes clear that the DI reflects the true error quite well whereas the standard deviation does not. This emphasises the suitability of the decribed method to estimate the AOA.
 
-*(Notice: The paper discusses a scond example.)*
+   <img src="./images/Figure7.png" width=80%>
+
+*(Notice: The paper discusses a second example.)*
 
 ## References
 
