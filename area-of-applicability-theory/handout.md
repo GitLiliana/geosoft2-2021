@@ -4,7 +4,7 @@ Issue: [#5](https://github.com/Geosoft2/geosoft2-2021/issues/5)
 
 # Area of Applicability - Theory
 
-This handout aims to summarise the preprint paper 'Predicting into unkown space? Estimating the area of applicability of spatial prediction models' by Meyer and Pebesma (2020) with focus on motivation/problemstatement and methodology.
+This handout aims to summarise the preprint paper 'Predicting into unkown space? Estimating the area of applicability of spatial prediction models' by [Meyer and Pebesma (2020)](https://arxiv.org/abs/2005.07939) with focus on motivation and methodology.
 
 ## Motivation
 
@@ -62,6 +62,13 @@ Based on this, model performance estimations were done. The results are summariz
    <img src="./images/Figure7.png" width=80%>
 
 *(Notice: The paper discusses a second example.)*
+
+## Selected Discussion Questions
+
+- Which source of uncertainty is considered by the DI? Which are not?
+- How can the estimation of the AOA be helpful for future sampling campaigns?
+- Does the presented approach for estimating the AOA work for various sampling designs and cross-validation strategies? What does this imply for future research?
+- Is the .95 quantile of the DI always a good choice for the threshold? What does this imply for future research?
 
 ## References
 
