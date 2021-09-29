@@ -17,7 +17,7 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
 ### Basic Idea
 
-1. **Calculate dissimilarity index (DI):** As differences between areas play an important role in the applicability of a model, an index which describes the dissimilarity between data points is calculated. This is the so called 'dissimilarity index'. It is based on the minimum distance to the training data within the multdimensional predictor space using weighed predictor variables.
+1. **Calculate dissimilarity index (DI):** As differences between areas play an important role in the applicability of a model, an index which describes the dissimilarity between data points is calculated. This is the so called 'dissimilarity index'. It is based on the minimum distance to the training data within the multidimensional predictor space using weighed predictor variables.
 2. **Estimating the AOA by applying threshold of the DI:** The threshold of the DI is derived from comparison between the prediction error within the AOA and the cross-validation error of the model.
 
 ### Calculating the Dissimilarity Index (DI)
