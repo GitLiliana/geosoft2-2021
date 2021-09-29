@@ -38,7 +38,7 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
    <img src="./images/minDist.png" width=17%>
 
-5. **Obtain dissimilarity index:** Standardize the minimum distances by deviding d<sub>k</sub> by the average of pairwise distances in the training data.
+5. **Obtain dissimilarity index:** Standardize the minimum distances by dividing d<sub>k</sub> by the average of pairwise distances in the training data.
 
    <img src="./images/DI.png" width=11%>
 
