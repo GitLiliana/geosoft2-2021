@@ -26,7 +26,7 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
    <img src="./images/scaledVar_new.png" width=50%>
 
-2. **Weighing of variables:** To reflect the variable importance the scaled variables are multiplied with an impotance estimate w<sub>j</sub> which is provided by most machine learning models.
+2. **Weighing of variables:** To reflect the variable importance the scaled variables are multiplied with an importance estimate w<sub>j</sub> which is provided by most machine learning models.
 
    <img src="./images/weighedVar.png" width=12%>
 
