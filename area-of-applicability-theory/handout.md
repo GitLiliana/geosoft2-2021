@@ -30,7 +30,7 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
    <img src="./images/weighedVar.png" width=12%>
 
-3. **Distance calculation:** The distance between two point a and b in the predictor variable space is calculated using the euclidean distance.
+3. **Distance calculation:** The distance between two points a and b in the predictor variable space is calculated using the Euclidean distance.
 
    <img src="./images/euclideanDist.png" width=25%>
 
