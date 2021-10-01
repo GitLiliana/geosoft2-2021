@@ -45,6 +45,7 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 ### Estimating the Area of Applicability
 
 - **Taking cross validation into account:** The AOA is defined as the area where the prediction error is comparable to the model's cross-validation error. Using cross-validation means that the training data is split into folds. This has to be taken into account for calculating the DI. When calculating the distance to the nearest training data point, it is important to only use points that are not in the same fold. This is illustrated in Figure (b) where the folds are shown in different colours. The example point belongs to fold 3 and the minimum distance of 90,28 relates to a point of fold 1 eventhough there is a point of fold 3 which is closer.
+
    <img src="./images/Figure_Folds.png" width=30%>
    
 - **Simulate a response variable for testing purposes:** To choose a reasonable threshold for the DI varying thresholds were tested for nearly 1000 prediction tasks where true values were known. Based on bioclimatic predictor variables a spatially continuous response variable was simulated. This simulated response variable was then used for the prediction tasks mentioned before.
