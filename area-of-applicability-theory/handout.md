@@ -74,10 +74,9 @@ Based on this, model performance estimations were done. The results are summariz
 
 ## Selected Discussion Questions
 
-- Which source of uncertainty is considered by the DI? Which are not?
+- What does the dissimilarity index (DI) describe? Why is it important for estimating the area of applicability (AOA)?
 - How can the estimation of the AOA be helpful for future sampling campaigns?
-- Does the presented approach for estimating the AOA work for various sampling designs and cross-validation strategies? What does this imply for future research?
-- Is the .95 quantile of the DI always a good choice for the threshold? What does this imply for future research?
+- The presented approach for estimating the AOA is illustrated by a case study, which uses two cross-validation strategies and suggests the .95 quantile of the DI as a good threshold. Is this sufficient to verify the presented approach in general? What does this imply for future research?
 
 ## References
 
