@@ -1,4 +1,4 @@
-Author: [@GitLiliana](https://github.com/GitLiliana)
+Authors: [@GitLiliana](https://github.com/GitLiliana) [@Jan9669](https://github.com/Jan9669)
 
 Issue: [#5](https://github.com/Geosoft2/geosoft2-2021/issues/5)
 
@@ -46,7 +46,9 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 
 - **Taking cross validation into account:** The AOA is defined as the area where the prediction error is comparable to the model's cross-validation error. Using cross-validation means that the training data is split into folds. This has to be taken into account for calculating the DI. When calculating the distance to the nearest training data point, it is important to only use points that are not in the same fold. This is illustrated in Figure (b) where the folds are shown in different colours. The example point belongs to fold 3 and the minimum distance of 90,28 relates to a point of fold 1 eventhough there is a point of fold 3 which is closer.
 
-   <img src="./images/Figure_Folds.png" width=30%>
+   <img src="./images/Figure_Folds_sub.png" width=30%>
+   
+   *(Meyer and Pebesma 2021, p. 1624)*
    
 - **Simulate a response variable for testing purposes:** To choose a reasonable threshold for the DI varying thresholds were tested for nearly 1000 prediction tasks where true values were known. Based on bioclimatic predictor variables a spatially continuous response variable was simulated. This simulated response variable was then used for the prediction tasks mentioned before.
 - **Compare prediction error and cross-validation error for varying quantiles of DI:** Based on the simulations the prediction error was computed by substracting predicted values from true values. Then the prediction error was compared to the cross-validation error for varying quantiles of the DI.
@@ -59,12 +61,16 @@ Spatial mapping of environmental variables is important to reveal spatial patter
 Finally, the introduced approach for estimating the AOA is illustrated in a case study using a single simulation for the response variable as shown in figure 5. In addtion, 50 sample points were randomly selected as training data (figure 5b).
 
    <img src="./images/Figure5.png" width=80%>
+   
+   *(Meyer and Pebesma 2020, p. 8)*
 
 Based on this, model performance estimations were done. The results are summarized in Figure 7 where the areas outside of the AOA are shown in pink in figure 7e. When comparing the true prediction error with the standard deviation of predictions and the DI, it becomes clear that the DI reflects the true error quite well whereas the standard deviation does not. This emphasises the suitability of the decribed method to estimate the AOA.
 
    <img src="./images/Figure7.png" width=80%>
+   
+   *(Meyer and Pebesma 2020, p. 9)*
 
-*(Notice: The paper discusses a second example.)*
+(Notice: The paper discusses a second example.)
 
 ## Selected Discussion Questions
 
